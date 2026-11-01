@@ -1,10 +1,11 @@
 1. TS Simple Types & Explicit / InferenceBa
-    3 Kiểu dữ liệu nguyên thủy phổ biến nhất là string, number và boolean. Có 2 cách khai báo:
- Explicit (Tường minh): Chỉ định trực tiếp kiểu dữ liệu bằng dấu ':'
- Inference (Suy luận kiểu): TypeScript tự động nhận diện kiểu dữ liệu dựa trên giá trị khởi tạo ban đầu.
+    3 Kiểu dữ liệu nguyên thủy phổ biến nhất là string, number và boolean. 
+    Có 2 cách khai báo:
+        Explicit (Tường minh): Chỉ định trực tiếp kiểu dữ liệu bằng dấu ':'
+        Inference (Suy luận kiểu): TypeScript tự động nhận diện kiểu dữ liệu dựa trên giá trị khởi tạo ban đầu.
  
- let firstName: string = "Ngọc"; // Explicit
- let age = 21;                   // Inference 
+    let firstName: string = "Ngọc"; // Explicit
+    let age = 21;                   // Inference 
 
 
 2. TS Special Types
